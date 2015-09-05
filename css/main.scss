@@ -94,6 +94,9 @@ $dark: #191919;
                 line-height: 20px;
                 border-right: 1px solid #383838;
                 color: #fff;
+                &:hover {
+                    color: #0ff1f9;
+                }
             }
         }
     }

@@ -31,6 +31,7 @@ a, a:hover { text-decoration: none; }
 #top .top-list li { list-style: none; float: left; margin-bottom: 15px; }
 #top .top-list li:last-child > a { border-right-color: transparent; }
 #top .top-list li a { display: block; padding: 0px 20px; font-size: 19px; line-height: 20px; border-right: 1px solid #383838; color: #fff; }
+#top .top-list li a:hover { color: #0ff1f9; }
 #top span.number { color: #0ff1f9; display: inline-block; font-size: 19px; font-weight: bold; }
 
 .brand-logo { position: relative; z-index: 10; }
