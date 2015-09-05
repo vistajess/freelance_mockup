@@ -1,0 +1,406 @@
+body {
+    font-family: 'klavika-light';
+    overflow-x: hidden;
+}
+
+a,
+a:hover {
+    text-decoration: none;
+}
+
+$dark: #191919;
+.klavika-bold {
+    font-family: klavika-bold;
+}
+
+.klavika-light {
+    font-family: klavika-light;
+}
+
+
+/*==================== BOOTSTRAP OVERRIDE =================*/
+
+.nav > li > a {
+    color: #fff;
+    border-right: 1px solid #383838;
+    padding: 0px 24px;
+    font-size: 16px;
+}
+
+.nav > li:last-child >a {
+    border-right-color: transparent !important;
+}
+
+.nav>li>a:focus,
+.nav>li>a:hover {
+    background: transparent !important;
+    color: #0ff1f9;
+}
+
+.navbar {
+    margin-bottom: 0px !important;
+}
+
+.navbar-brand > img {
+    position: relative;
+    bottom: 330px;
+}
+
+.carousel-caption {
+    width: 50%;
+    bottom: 10% !important;
+    right: 0%;
+    left: 10%;
+}
+
+.carousel-indicators {
+    bottom: 20px;
+    width: 30% !important;
+    left: 10% !important;
+    margin-left: 0 !important;
+    text-align: left;
+}
+
+.carousel-indicators li {
+    background-color: #191919 !Important;
+    width: 14px !important;
+    height: 14px !important;
+}
+
+.carousel-indicators .active {
+    background-color: #0ff1f9 !important;
+}
+
+
+/*================ TOP HEADER ======================*/
+
+#top {
+    background: $dark;
+    .top-nav {
+        margin-top: 20px;
+    }
+    .top-list {
+        li {
+            list-style: none;
+            float: left;
+            margin-bottom: 15px;
+            &:last-child > a {
+                border-right-color: transparent;
+            }
+            a {
+                display: block;
+                padding: 0px 20px;
+                font-size: 19px;
+                line-height: 20px;
+                border-right: 1px solid #383838;
+                color: #fff;
+            }
+        }
+    }
+    span.number {
+        color: #0ff1f9;
+        display: inline-block;
+        font-size: 19px;
+        font-weight: bold;
+    }
+}
+
+.brand-logo {
+    position: relative;
+    z-index: 10;
+    img {
+        position: absolute;
+    }
+}
+
+
+/*=============== Main Navigation ===================*/
+
+#main-navigation {
+    background: $dark;
+    margin-top: -3px;
+    position: relative;
+    z-index: 10;
+}
+
+
+/*=============== BANNER ===============*/
+
+.banner {
+    position: relative;
+    z-index: 9;
+    background: url('../image/top_bg.png') no-repeat center center/cover;
+    height: 250px;
+}
+
+
+/*================== SLIDER =====================*/
+
+.slider {
+    .slider-img {
+        width: 100%;
+    }
+    .carousel-caption {
+        .big-text {
+            font-size: 89px;
+            color: #000;
+            display: block;
+            line-height: 64px;
+            text-align: left;
+        }
+        .small-text {
+            font-size: 48px;
+            color: #000;
+            display: block;
+            text-align: left;
+        }
+        .view-btn {
+            color: #000;
+            background: #0ff1f9;
+            border: 2px solid #0ff1f9;
+            text-decoration: none;
+            border: none;
+            padding: 10px 25px;
+            float: left;
+            display: block;
+            font-size: 24px;
+            margin-top: 12px;
+            -webkit-transition: background, color 0.3s linear;
+            -moz-transition: background, color 0.3s linear;
+            -o-transition: background, color 0.3s linear;
+            transition: background, color 0.3s linear;
+            &:hover {
+                background-color: #000;
+                color: #0ff1f9;
+            }
+        }
+    }
+}
+
+
+/* ============== ABOUT SECTION ===============*/
+
+.about {
+    background: #191919;
+    padding-top: 85px;
+    article {
+        h2 {
+            font-size: 24px;
+            color: #fff;
+            letter-spacing: 2px;
+            margin-top: 0px;
+        }
+        p.text-uppercase {
+            color: #707070;
+            font-size: 18px;
+        }
+        p {
+            font-size: 14px;
+            color: #707070;
+        }
+    }
+}
+
+
+/*================== SERVICE ===================*/
+
+.service {
+    background: $dark;
+    padding-top: 30px;
+    padding-bottom: 60px;
+    .service-panel {
+        p {
+            color: #707070;
+            font-size: 14px;
+        }
+    }
+    .service-icon {
+        width: 55px;
+        height: 55px;
+        display: block;
+    }
+    .pencil {
+        background: url('../image/pencil.png') no-repeat center center;
+    }
+    .play {
+        background: url('../image/play.png') no-repeat center center;
+    }
+    .paint {
+        background: url('../image/paint.png') no-repeat center center;
+    }
+}
+
+
+/*================ FOOTER ==================*/
+
+footer {
+    padding: 60px 0px;
+    .title {
+        margin-bottom: 35px;
+        strong {
+            font-size: 30px !important;
+            color: #000 !important;
+        }
+    }
+    .footer-contact {
+        .txtbox {
+            border: 1px solid #e6e6e6;
+            color: #c7c7c7;
+            display: block;
+            padding: 14px 15px;
+            width: 85%;
+            margin: 14px 0px;
+            font-size: 15px;
+        }
+        .submit {
+            background-color: #0ff1f9 !important;
+            border: none;
+            color: #fff;
+            padding: 15px 30px;
+            text-transform: uppercase;
+            font-size: 18px;
+            letter-spacing: 3px;
+            -webkit-transition: background, color 0.3s linear;
+            -moz-transition: background, color 0.3s linear;
+            -o-transition: background, color 0.3s linear;
+            transition: background, color 0.3s linear;
+            &:hover {
+                background-color: #000;
+                color: #000;
+            }
+        }
+    }
+    .footer-address {
+        strong {
+            color: #7c7c7c;
+            font-size: 14px;
+            line-height: 25px;
+        }
+        span {
+            display: block;
+            font-size: 14px;
+            line-height: 25px;
+            color: #7c7c7c;
+        }
+    }
+    .footer-social-media {
+        text-align: center;
+        margin-top: 160px;
+        li {
+            list-style: none;
+            display: inline-block;
+            padding: 10px;
+            font-size: 18px;
+            a {
+                color: #707070;
+            }
+        }
+    }
+}
+
+.divider {
+    display: block;
+    width: 40px;
+    height: 2px;
+    background-color: #fff;
+    margin: 20px 0px;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+
+/*================= MEDIA QUERY ================*/
+
+@media screen and (max-width: 1200px) {}
+
+@media screen and (max-width: 992px) {
+    .nav > li > a {
+        padding: 0px 13px;
+        font-size: 14px;
+    }
+    .brand-logo {
+        img {
+            width: 150px;
+        }
+    }
+}
+
+@media screen and (max-width: 767px) {
+    #top .top-nav {
+        margin-top: 0px;
+    }
+    .brand-logo {
+        width: 100%;
+        img {
+            width: 150px;
+            margin: 0px auto;
+            position: relative;
+        }
+    }
+    .top-list {
+        display: none;
+    }
+    .nav {
+        li {
+            text-align: center;
+            a {
+                padding: 5px 13px;
+                font-size: 16px;
+                border-right: 0px;
+            }
+        }
+    }
+    .navbar-toggle {
+        background-color: rgb(253, 253, 253);
+    }
+    .navbar-toggle .icon-bar {
+        background-color: #191919;
+    }
+    .navbar-nav {
+        float: none !Important;
+        width: 100%;
+    }
+    .service .service-icon {
+        margin: 0px auto;
+    }
+    .service-panel {
+        text-align: center;
+    }
+    .divider {
+        margin: 20px auto;
+    }
+    .about article h2 {
+        text-align: center;
+    }
+    footer {
+        text-align: center;
+        .txtbox {
+            margin: 14px auto !important;
+            padding: 9px 13px !important;
+            width: 60% !important;
+        }
+        .footer-contact {
+            padding: 20px 0px;
+        }
+        .footer-social-media {
+            margin-top: 70px !important;
+        }
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .about article h2 {
+        font-size: 20px;
+    }
+    .about article p.text-uppercase {
+        font-size: 16px;
+    }
+    footer .title {
+        font-size: 25px;
+        strong {
+            font-size: 25px;
+        }
+    }
+}

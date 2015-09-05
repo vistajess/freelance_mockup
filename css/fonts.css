@@ -1,0 +1,13 @@
+@font@charset "utf-8";
+
+/* CSS Document */
+
+@font-face {
+    font-family: klavika-bold;
+    src: url("fonts/klavika-bold.otf");
+}
+
+@font-face {
+    font-family: klavika-light;
+    src: url("fonts/klavika-light.otf");
+}
